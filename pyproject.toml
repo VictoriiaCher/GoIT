@@ -6,14 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "help-you"
 version = "0.2"
 authors=[{name="Viktoria Cherevchenko"}]
-description = "Small program"
+description = "Console bot"
 readme = "README.md"
 
 requires-python = ">=3.10"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-prompt-toolkit = "request"
 
 [tool.setuptools.packages.find]
 where = ["help_you"]
